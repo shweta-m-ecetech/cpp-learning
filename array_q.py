@@ -14,4 +14,10 @@ for string in a:
               pass
 
     
-words=set(words)
+
+print(words)
+length=list()
+for word in words:
+      length.append(len(word))
+print(max(length))
+       
