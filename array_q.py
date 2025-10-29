@@ -5,14 +5,18 @@ for i in range(len(a)):
          c=a[i:j]
          b.append(c)
 words=list()
+count=0
 for string in a:
     for letter in string:
         e=list(string)
         if e.count(letter)==1:
-              words.append(string)
-        else:
               pass
-
+        else:
+              break
+        count=count+1
+for string in a:
+     if count==len(string):
+           words.append(string)
     
 
 print(words)
