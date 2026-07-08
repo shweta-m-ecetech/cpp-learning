@@ -50,7 +50,7 @@ void main()
 
     for(int i = 0; i < 2; i++)
     {
-        for(int j = i + 1; j < 3; j++)
+        for(int j = i + 1; j < 2; j++)
         {
             if(a[i][2-i] > a[j][2-j])
             {
@@ -61,7 +61,7 @@ void main()
         }
     }
 
-    for(int i = 0; i < 2; i++)
+    for(int i = 0; i < 3; i++)
     {
         for(int j = 0; j < 3; j++)
         {
