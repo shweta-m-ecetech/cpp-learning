@@ -1,18 +1,54 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
 {
-  "configurations": [
-    {
-      "name": "macos-clang-arm64",
-      "includePath": [
-        "${workspaceFolder}/**"
-      ],
-      "compilerPath": "/usr/bin/clang",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "macos-clang-arm64",
-      "compilerArgs": [
-        ""
-      ]
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/shwetam/projects/cpp-learning/src",
+                "/Users/shwetam/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/shwetam/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/Users/shwetam/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/shwetam/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/shwetam/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/shwetam/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/Users/shwetam/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/shwetam/projects/cpp-learning/src",
+                    "/Users/shwetam/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/shwetam/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/Users/shwetam/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/shwetam/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/shwetam/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/shwetam/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/Users/shwetam/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60200",
+                "ARDUINO_AVR_UNO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/Users/shwetam/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
 }
